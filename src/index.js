@@ -1,7 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import Display from "./components/Display";
-import Number from "./components/Number";
+import Buttons from "./components/Buttons";
+import Header from "./components/Header";
 
 import "./styles.css";
 
@@ -25,11 +26,22 @@ class App extends React.Component {
     });
   };
 
+  clearScreen = () => {
+    return this.setState({
+      textInput: ""
+    });
+  };
+
   render() {
     return (
       <div className="App">
+        <Header />
         <Display textInput={this.state.textInput} />
-        <Number displayNumber={this.displayNumber} evaluate={this.evaluate} />
+        <Buttons
+          displayNumber={this.displayNumber}
+          evaluate={this.evaluate}
+          clearScreen={this.clearScreen}
+        />
       </div>
     );
   }
