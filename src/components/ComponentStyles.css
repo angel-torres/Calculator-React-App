@@ -10,6 +10,7 @@
   font-size: 40px;
   background-color: black;
   color: rgb(205, 225, 243);
+  font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
 .button-container {
@@ -46,6 +47,7 @@
   font-weight: bold;
   background-color: rgb(44, 67, 117);
   color: lightgrey;
+  font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
 .number-button:hover {
@@ -58,6 +60,8 @@
   font-weight: bold;
   background-color: rgb(44, 67, 117);
   color: lightgrey;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  border-radius: 0 0 0 10px;
 }
 
 .zero-button:hover {
@@ -68,6 +72,7 @@
   height: 20%;
   font-size: 30px;
   font-weight: bold;
+  font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
 .clear-button:hover {
@@ -75,6 +80,7 @@
 }
 
 .right-container-button {
+  font-family: "Comic Sans MS", cursive, sans-serif;
   height: 20%;
   background-color: rgb(131, 67, 67);
   font-size: 30px;
@@ -90,6 +96,7 @@
   background-color: rgb(131, 67, 67);
   color: white;
   border: 2px solid rgb(230, 202, 202);
+  border-radius: 10px;
   height: 150px;
   display: flex;
   justify-content: center;
@@ -99,6 +106,12 @@
 }
 
 .title {
+  font-family: "Comic Sans MS", cursive, sans-serif;
   font-size: 55px;
-  text-shadow: 10px rgb(80, 73, 73);
+  color: #dedede;
+  text-shadow: 2px 2px rgb(58, 41, 41);
+}
+
+.enter-button {
+  border-radius: 0 0 10px 0;
 }

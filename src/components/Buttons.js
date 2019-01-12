@@ -107,7 +107,10 @@ function Buttons(props) {
         >
           /
         </button>
-        <button className="right-container-button" onClick={props.evaluate}>
+        <button
+          className="enter-button right-container-button"
+          onClick={props.evaluate}
+        >
           Enter
         </button>
       </div>
